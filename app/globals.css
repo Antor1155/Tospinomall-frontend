@@ -2,10 +2,5 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --background-color:rgb(255, 255, 255);
-  --tospino-color:rgb(58, 194, 188);
-  --tospino-text-color: rgba(51, 192, 186, 1);
-  --small-black-text-color: rgba(115, 115, 115, 1);
-}
+
 
