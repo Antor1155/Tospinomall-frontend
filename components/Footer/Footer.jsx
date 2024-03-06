@@ -132,7 +132,7 @@ const Footer = () => {
                 <small>© 2024 All Rights Reserved.</small>
 
                 <div>
-                    <Link href="" className="text-sm text-dim-text"> Privacy Policy </Link>
+                    <Link href="" className="text-sm text-dim-text mr-8"> Privacy Policy </Link>
                     <Link href="" className="text-sm text-dim-text"> Terms of Use </Link>
                 </div>
             </div>
