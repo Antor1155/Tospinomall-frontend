@@ -80,6 +80,7 @@ const Header = () => {
                     <Image
                         src="/icons/tospinomall.svg"
                         fill
+                        alt="tospinomall"
                     />
                 </Link>
 
@@ -116,14 +117,14 @@ const Header = () => {
                             src="/icons/cancel.svg"
                             width={28}
                             height={20}
-                            alt="menu"
+                            alt="cancel button"
                         />
                         :
                         <Image
                             src="/icons/menu.svg"
                             width={24}
                             height={24}
-                            alt="menu"
+                            alt="menu button"
                         />
                     }
                 </button>
