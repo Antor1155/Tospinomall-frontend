@@ -19,7 +19,7 @@ const Carousel = () => {
 
     };
     return (
-        <div className="text-white mb-6">
+        <div className="text-white">
 
             <Slider {...settings} >
 

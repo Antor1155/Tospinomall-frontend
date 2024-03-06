@@ -3,17 +3,55 @@ import Image from "next/image";
 
 export default function Home() {
   return (
-    <main className="">
+    <main className="bg-off-white">
       <Carousel />
-      <h1 className="font-bold text-3xl">hello world</h1>
+      
+    <sectin className="bg-white flex justify-between items-center w-full py-14 px-[5%]">
+      <Image
+        src="/images/partner1.svg"
+        width={103}
+        height={30}
+        alt="partner1"
+        className="w-[8%]"
+      />
+      <Image
+        src="/images/partner2.svg"
+        width={80}
+        height={30}
+        alt="partner2"
+        className="w-[6%]"
+      />
+      <Image
+        src="/images/partner3.svg"
+        width={60}
+        height={30}
+        alt="partner3"
+        className="self-start w-[7%]"
+      />
+      <Image
+        src="/images/partner4.svg"
+        width={90}
+        height={30}
+        alt="partner4"
+        className="w-[8%]"
+      />
+      <Image
+        src="/images/partner5.svg"
+        width={80}
+        height={30}
+        alt="partner5"
+        className="w-[8%]"
+      />
+      <Image
+        src="/images/partner6.svg"
+        width={50}
+        height={30}
+        alt="partner6"
+        className="self-start w-[6%]"
+      />
+    </sectin>
 
-      <p>Deserunt aute ex enim aute cillum et ullamco quis tempor proident excepteur anim sunt adipisicing. Aute aliqua cillum incididunt eiusmod labore sit tempor minim. Elit exercitation aute culpa incididunt voluptate incididunt fugiat quis irure proident sunt commodo est.
-
-        Id ut velit ea fugiat ex adipisicing ullamco in fugiat sint velit eu minim. Dolore excepteur reprehenderit sit elit ad irure ex. Commodo eu cupidatat quis exercitation laborum sint non tempor eiusmod sit duis consectetur fugiat. Velit in nostrud ut est. Tempor non do elit commodo tempor sint anim deserunt in aliqua.
-
-        Enim Lorem in aliqua mollit anim nisi officia. Minim pariatur eu id tempor officia nulla Lorem ipsum esse amet minim commodo fugiat. Sunt cupidatat ipsum incididunt occaecat et eiusmod fugiat do. Irure reprehenderit et non Lorem deserunt duis.
-
-      </p>
+      
     </main>
   );
 }

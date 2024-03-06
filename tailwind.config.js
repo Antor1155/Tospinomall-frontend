@@ -13,6 +13,7 @@ module.exports = {
         "semi-black-text": "#737373",
         "dim-text": "#9E9E9E",
         "semi-black": "#282828",
+        "off-white": "#F6F6F6",
       },
     },
   },
