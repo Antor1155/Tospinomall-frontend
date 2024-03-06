@@ -74,6 +74,16 @@ const Carousel = () => {
                 </section>
 
             </Slider>
+
+            <div className="px-[5%] py-5 block lg:hidden text-black">
+                <p className="text-base font-normal">We're In This Business Since 2018 And We Provide The Best Services.</p>
+
+                <p className="text-5xl leading-snug font-bold my-5">We trive to give best experience</p>
+
+                <p className="text-xl font-normal mb-8">Better Lifestyle with High-End Online Shopping</p>
+
+                <button className="text-lg font-medium btn bg-tospino rounded-lg">ABOUT TOSPINOMALL</button>
+            </div>
         </div>
     );
 }
