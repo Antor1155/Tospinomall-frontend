@@ -117,7 +117,7 @@ const Footer = () => {
 
                     <p className="text-xl font-medium">CHECK OUT OUR PLATFORMS</p>
 
-                    <select id="selectExample" name="selectExample" value="tospinomall" 
+                    <select id="selectExample" name="selectExample" defaultValue="tospinomall" 
                         className="text-black py-1 px-2 rounded-lg">
 
                         <option value="tospinomall">Tospinomall</option>

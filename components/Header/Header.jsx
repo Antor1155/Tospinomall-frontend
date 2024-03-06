@@ -12,7 +12,7 @@ const Header = () => {
     const [showNav, setShowNav] = useState(false)
 
     return (
-        <header>
+        <header className="">
             <div className='hidden lg:flex h-14 px-[5%] bg-semi-black justify-between items-center text-sm font-bold text-white'>
                 <div>
                     <p className="inline-flex mr-5">
