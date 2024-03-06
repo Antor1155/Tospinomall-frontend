@@ -73,6 +73,22 @@ export default function Home() {
         </div>
       </section>
 
+      <section className="bg-tospino flex text-white items-center px-[5%]">
+        <div className="w-1/2">
+          <h2 className="text-3xl md:text-5xl font-semibold">Our promise to ourselves</h2>
+          <p className="text-sm my-6"> Sustaining a Better Tomorrow, Positively Driving Change, and Making Communities.</p>
+        </div>
+
+        <div className="relative w-1/2 h-96">
+          <Image
+            src="/images/homeThird.png"
+            fill
+            alt="our promises model"
+            className="object-cover md:object-contain"
+          />
+        </div>
+      </section>
+
 
     </main>
   );
