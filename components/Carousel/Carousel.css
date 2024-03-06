@@ -29,8 +29,8 @@ button.slick-prev, button.slick-next{
 /* design of bottm dots */
 
 ul.slick-dots{
-    background-color: #3ac2bc;
-    bottom: -24px;
+    background-color: transparent;
+    bottom: 0px;
 }
 
 .slick-dots li{
