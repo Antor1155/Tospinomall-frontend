@@ -1,0 +1,54 @@
+button.slick-prev{
+    left: 20px;
+    z-index: 99;
+}
+
+button.slick-prev::before{
+    content: "<";
+    font-size: 45px;
+    color: whitesmoke;
+
+}
+button.slick-next::before{
+    content: ">";
+    color: whitesmoke;
+    font-size: 45px;
+
+}
+
+button.slick-next{
+    right: 20px;
+}
+
+button.slick-prev, button.slick-next{
+    width: 44px;
+    height: 44px;
+}
+
+
+/* design of bottm dots */
+
+ul.slick-dots{
+    background-color: #3ac2bc;
+    bottom: -24px;
+}
+
+.slick-dots li{
+    background-color: rgba(255, 255, 255, 0.50);
+    height: 10px;
+    width: 62px;
+    margin: 0;
+}
+
+.slick-dots li button::before {
+    color: transparent;
+    width: 100%;
+}
+
+.slick-dots li.slick-active button::before {
+    color: transparent;
+}
+
+.slick-dots li.slick-active{
+    background-color: white;
+}

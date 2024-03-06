@@ -3,7 +3,7 @@ import Link from "next/link";
 
 const Footer = () => {
     return (
-        <footer className="px-[5%] pt-16 pb-8 bg-black relative border-2 border-tospino text-white">
+        <footer className="px-[5%] pt-16 pb-8 bg-black relative text-white">
             {/* <Image
                 src="/images/footerbg.png"
                 fill
