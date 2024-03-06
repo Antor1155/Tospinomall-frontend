@@ -3,16 +3,16 @@ import Link from "next/link";
 
 const Footer = () => {
     return (
-        <footer className="px-[5%] pt-16 pb-16 bg-black relative border-2 border-tospino text-white">
+        <footer className="px-[5%] pt-16 pb-8 bg-black relative border-2 border-tospino text-white">
             {/* <Image
                 src="/images/footerbg.png"
                 fill
                 className="z-0"
             /> */}
 
-            <section className="z-10 relative flex justify-between">
+            <section className="z-10 relative flex justify-between flex-wrap">
 
-                <div className="w-80">
+                <div className="w-80 mb-10">
                     <h2 className="font-bold text-3xl mb-5">
                         <Image
                             src="/icons/tospinomall.svg"
@@ -99,7 +99,7 @@ const Footer = () => {
                     </div>
                 </div>
 
-                <div>
+                <div className="mb-10">
                     <p className="text-3xl font-semibold mb-5">QUICK LINKS</p>
 
                     <Link href="" className="text-xl font-normal text-dim-text block mb-5"> Our Teams </Link>
@@ -127,6 +127,15 @@ const Footer = () => {
                 </div>
 
             </section>
+
+            <div className="flex justify-between items-center flex-wrap w-full mt-10 ">
+                <small>© 2024 All Rights Reserved.</small>
+
+                <div>
+                    <Link href="" className="text-sm text-dim-text"> Privacy Policy </Link>
+                    <Link href="" className="text-sm text-dim-text"> Terms of Use </Link>
+                </div>
+            </div>
         </footer>
     );
 };
