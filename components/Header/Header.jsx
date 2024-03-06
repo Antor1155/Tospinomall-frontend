@@ -3,14 +3,17 @@
 import Image from "next/image";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
+import { useState } from "react";
 
 
 const Header = () => {
     const pathname = usePathname()
 
+    const [showNav, setShowNav] = useState(true)
+
     return (
         <header>
-            <div className='h-14 px-[5%] bg-semi-black flex justify-between items-center text-sm font-bold text-white'>
+            <div className='hidden lg:flex h-14 px-[5%] bg-semi-black justify-between items-center text-sm font-bold text-white'>
                 <div>
                     <p className="inline-flex mr-5">
                         <Image
@@ -18,6 +21,7 @@ const Header = () => {
                             width={16}
                             height={16}
                             className="mr-2"
+                            alt="phone"
                         />
 
                         (223) 555-0118
@@ -28,6 +32,7 @@ const Header = () => {
                             width={16}
                             height={16}
                             className="mr-2"
+                            alt="email"
                         />
 
                         tospinomall@example.com
@@ -44,47 +49,84 @@ const Header = () => {
                         src="/icons/instagram.svg"
                         width={16}
                         height={16}
+                        alt="instagram"
                     />
                     <Image
                         src="/icons/youtube.svg"
                         width={16}
                         height={16}
+                        alt="youtube"
                     />
                     <Image
                         src="/icons/facebook.svg"
                         width={16}
                         height={16}
+                        alt="facebook"
                     />
 
                     <Image
                         src="/icons/twitter.svg"
                         width={16}
                         height={16}
+                        alt="twitter"
                     />
                 </div>
 
             </div>
 
-            <nav className="relative py-2.5 pl-[5%] md:bg-semi-black lg:bg-white">
-                <Link href="/">
+            <nav className="relative py-2.5 px-[5%] bg-semi-black lg:bg-white flex justify-between items-center">
+
+                <Link href="/" className="lg:w-20 lg:h-20 w-10 h-10 block relative">
                     <Image
                         src="/icons/tospinomall.svg"
-                        width={78}
-                        height={76}
+                        fill
                     />
                 </Link>
 
-                <div className="">
-                    <div className="flex space-x-7 justify-center w-full font-medium absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
-                        <Link href="/" className={`hover:font-medium ${pathname === "/" ? "font-bold text-tospino-text" : "font-normal"}`}>HOME</Link>
-                        <Link href="/" className={`hover:font-medium ${pathname === "/our-team" ? "font-bold text-tospino-text" : "font-normal"}`}>OUR TEAM</Link>
-                        <Link href="/" className={`hover:font-medium ${pathname === "/blog" ? "font-bold text-tospino-text" : "font-normal"}`}>BLOG</Link>
-                        <Link href="/" className={`hover:font-medium ${pathname === "/policy" ? "font-bold text-tospino-text" : "font-normal"}`}>POLICY</Link>
-                        <Link href="/" className={`hover:font-medium ${pathname === "/faq" ? "font-bold text-tospino-text" : "font-normal"}`}>FAST FACT ADN FAQ</Link>
-                        <Link href="/" className={`hover:font-medium ${pathname === "/about-us" ? "font-bold text-tospino-text" : "font-normal"}`}>ABOUT US</Link>
-                        <Link href="/" className={`hover:font-medium ${pathname === "/contact-us" ? "font-bold text-tospino-text" : "font-normal"}`}>CONTACT US</Link>
-                    </div>
+
+                <div className="hidden lg:flex space-x-7 justify-center w-full font-medium absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
+                    <Link href="/" className={`hover:font-medium ${pathname === "/" ? "font-bold text-tospino-text" : "font-normal"}`}>HOME</Link>
+                    <Link href="/" className={`hover:font-medium ${pathname === "/our-team" ? "font-bold text-tospino-text" : "font-normal"}`}>OUR TEAM</Link>
+                    <Link href="/" className={`hover:font-medium ${pathname === "/blog" ? "font-bold text-tospino-text" : "font-normal"}`}>BLOG</Link>
+                    <Link href="/" className={`hover:font-medium ${pathname === "/policy" ? "font-bold text-tospino-text" : "font-normal"}`}>POLICY</Link>
+                    <Link href="/" className={`hover:font-medium ${pathname === "/faq" ? "font-bold text-tospino-text" : "font-normal"}`}>FAST FACT ADN FAQ</Link>
+                    <Link href="/" className={`hover:font-medium ${pathname === "/about-us" ? "font-bold text-tospino-text" : "font-normal"}`}>ABOUT US</Link>
+                    <Link href="/" className={`hover:font-medium ${pathname === "/contact-us" ? "font-bold text-tospino-text" : "font-normal"}`}>CONTACT US</Link>
                 </div>
+
+                {showNav &&
+                    <div className="lg:hidden w-full h-lvh border-2 border-black bg-white font-medium absolute top-16 left-0">
+                        <Link href="/" className={`hover:font-medium block border-2 py-2 text-center ${pathname === "/" ? "font-bold text-tospino-text" : "font-normal"}`}>HOME</Link>
+                        <Link href="/" className={`hover:font-medium block border-2 py-2 text-center ${pathname === "/our-team" ? "font-bold text-tospino-text" : "font-normal"}`}>OUR TEAM</Link>
+                        <Link href="/" className={`hover:font-medium block border-2 py-2 text-center ${pathname === "/blog" ? "font-bold text-tospino-text" : "font-normal"}`}>BLOG</Link>
+                        <Link href="/" className={`hover:font-medium block border-2 py-2 text-center ${pathname === "/policy" ? "font-bold text-tospino-text" : "font-normal"}`}>POLICY</Link>
+                        <Link href="/" className={`hover:font-medium block border-2 py-2 text-center ${pathname === "/faq" ? "font-bold text-tospino-text" : "font-normal"}`}>FAST FACT ADN FAQ</Link>
+                        <Link href="/" className={`hover:font-medium block border-2 py-2 text-center ${pathname === "/about-us" ? "font-bold text-tospino-text" : "font-normal"}`}>ABOUT US</Link>
+                        <Link href="/" className={`hover:font-medium block border-2 py-2 text-center ${pathname === "/contact-us" ? "font-bold text-tospino-text" : "font-normal"}`}>CONTACT US</Link>
+                    </div>
+                }
+
+
+                <button
+                    className=" block lg:hidden"
+                    onClick={() => { setShowNav(!showNav) }}
+                >
+                    {showNav ?
+                        <Image
+                            src="/icons/cancel.svg"
+                            width={28}
+                            height={20}
+                            alt="menu"
+                        />
+                        :
+                        <Image
+                            src="/icons/menu.svg"
+                            width={24}
+                            height={24}
+                            alt="menu"
+                        />
+                    }
+                </button>
             </nav>
 
         </header>
