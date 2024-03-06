@@ -11,6 +11,7 @@ module.exports = {
         "tospino": "#3ac2bc",
         "tospino-text": "#33c0ba",
         "semi-black-text": "#737373",
+        "dim-text": "#9E9E9E",
         "semi-black": "#282828",
       },
     },

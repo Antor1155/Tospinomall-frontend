@@ -10,7 +10,7 @@ const Footer = () => {
                 className="z-0"
             /> */}
 
-            <section className="z-10 relative">
+            <section className="z-10 relative flex justify-between">
 
                 <div className="w-80">
                     <h2 className="font-bold text-3xl mb-5">
@@ -97,6 +97,33 @@ const Footer = () => {
 
 
                     </div>
+                </div>
+
+                <div>
+                    <p className="text-3xl font-semibold mb-5">QUICK LINKS</p>
+
+                    <Link href="" className="text-xl font-normal text-dim-text block mb-5"> Our Teams </Link>
+                    <Link href="" className="text-xl font-normal text-dim-text block mb-5"> Blog </Link>
+                    <Link href="" className="text-xl font-normal text-dim-text block mb-5"> Fast Fact and Faq </Link>
+                    <Link href="" className="text-xl font-normal text-dim-text block mb-5"> About Us </Link>
+                    <Link href="" className="text-xl font-normal text-dim-text block mb-5"> Contact Us </Link>
+                </div>
+
+                <div>
+                    <p className="text-3xl font-semibold mb-5">MORE</p>
+
+                    <Link href="" className="text-xl font-normal text-dim-text block mb-5"> Policy </Link>
+                    <Link href="" className="text-xl font-normal text-dim-text block mb-5"> Location </Link>
+
+                    <p className="text-xl font-medium">CHECK OUT OUR PLATFORMS</p>
+
+                    <select id="selectExample" name="selectExample" value="tospinomall" 
+                        className="text-black py-1 px-2 rounded-lg">
+
+                        <option value="tospinomall">Tospinomall</option>
+                        <option value="option2">Option 2</option>
+                        <option value="option3">Option 3</option>
+                    </select>
                 </div>
 
             </section>
