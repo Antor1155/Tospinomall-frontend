@@ -65,7 +65,7 @@ const Header = () => {
 
             </div>
 
-            <nav className="relative py-2.5 pl-[5%]">
+            <nav className="relative py-2.5 pl-[5%] md:bg-semi-black lg:bg-white">
                 <Link href="/">
                     <Image
                         src="/icons/tospinomall.svg"
@@ -76,13 +76,13 @@ const Header = () => {
 
                 <div className="">
                     <div className="flex space-x-7 justify-center w-full font-medium absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
-                        <Link href="/" className={pathname === "/" ? "font-bold text-tospino-text" : "font-normal"}>HOME</Link>
-                        <Link href="/" className={pathname === "/our-team" ? "font-bold text-tospino-text" : "font-normal"}>OUR TEAM</Link>
-                        <Link href="/" className={pathname === "/blog" ? "font-bold text-tospino-text" : "font-normal"}>BLOG</Link>
-                        <Link href="/" className={pathname === "/policy" ? "font-bold text-tospino-text" : "font-normal"}>POLICY</Link>
-                        <Link href="/" className={pathname === "/faq" ? "font-bold text-tospino-text" : "font-normal"}>FAST FACT ADN FAQ</Link>
-                        <Link href="/" className={pathname === "/about-us" ? "font-bold text-tospino-text" : "font-normal"}>ABOUT US</Link>
-                        <Link href="/" className={pathname === "/contact-us" ? "font-bold text-tospino-text" : "font-normal"}>CONTACT US</Link>
+                        <Link href="/" className={`hover:font-medium ${pathname === "/" ? "font-bold text-tospino-text" : "font-normal"}`}>HOME</Link>
+                        <Link href="/" className={`hover:font-medium ${pathname === "/our-team" ? "font-bold text-tospino-text" : "font-normal"}`}>OUR TEAM</Link>
+                        <Link href="/" className={`hover:font-medium ${pathname === "/blog" ? "font-bold text-tospino-text" : "font-normal"}`}>BLOG</Link>
+                        <Link href="/" className={`hover:font-medium ${pathname === "/policy" ? "font-bold text-tospino-text" : "font-normal"}`}>POLICY</Link>
+                        <Link href="/" className={`hover:font-medium ${pathname === "/faq" ? "font-bold text-tospino-text" : "font-normal"}`}>FAST FACT ADN FAQ</Link>
+                        <Link href="/" className={`hover:font-medium ${pathname === "/about-us" ? "font-bold text-tospino-text" : "font-normal"}`}>ABOUT US</Link>
+                        <Link href="/" className={`hover:font-medium ${pathname === "/contact-us" ? "font-bold text-tospino-text" : "font-normal"}`}>CONTACT US</Link>
                     </div>
                 </div>
             </nav>
