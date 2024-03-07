@@ -1,4 +1,5 @@
 import Carousel from "@/components/Carousel/Carousel";
+import FaqAccordion from "@/components/FaqAccordion/FaqAccordion";
 import ResponsiveCarousel from "@/components/ResponsiveCarousel/ResponsiveCarousel";
 import Image from "next/image";
 import Link from "next/link";
@@ -195,7 +196,7 @@ export default function Home() {
 
       </section>
 
-      
+      <FaqAccordion />
 
     </main>
   );
