@@ -91,7 +91,7 @@ const Header = () => {
                     <Link href="/" className={`hover:font-medium ${pathname === "/blog" ? "font-bold text-tospino-text" : "font-normal"}`}>BLOG</Link>
                     <Link href="/" className={`hover:font-medium ${pathname === "/policy" ? "font-bold text-tospino-text" : "font-normal"}`}>POLICY</Link>
                     <Link href="/" className={`hover:font-medium ${pathname === "/faq" ? "font-bold text-tospino-text" : "font-normal"}`}>FAST FACT ADN FAQ</Link>
-                    <Link href="/" className={`hover:font-medium ${pathname === "/about-us" ? "font-bold text-tospino-text" : "font-normal"}`}>ABOUT US</Link>
+                    <Link href="/about-us" className={`hover:font-medium ${pathname === "/about-us" ? "font-bold text-tospino-text" : "font-normal"}`}>ABOUT US</Link>
                     <Link href="/" className={`hover:font-medium ${pathname === "/contact-us" ? "font-bold text-tospino-text" : "font-normal"}`}>CONTACT US</Link>
                 </div>
 
@@ -102,7 +102,7 @@ const Header = () => {
                         <Link href="/" className={`hover:font-medium block border-2 py-2 text-center ${pathname === "/blog" ? "font-bold text-tospino-text" : "font-normal"}`}>BLOG</Link>
                         <Link href="/" className={`hover:font-medium block border-2 py-2 text-center ${pathname === "/policy" ? "font-bold text-tospino-text" : "font-normal"}`}>POLICY</Link>
                         <Link href="/" className={`hover:font-medium block border-2 py-2 text-center ${pathname === "/faq" ? "font-bold text-tospino-text" : "font-normal"}`}>FAST FACT ADN FAQ</Link>
-                        <Link href="/" className={`hover:font-medium block border-2 py-2 text-center ${pathname === "/about-us" ? "font-bold text-tospino-text" : "font-normal"}`}>ABOUT US</Link>
+                        <Link href="/about-us" className={`hover:font-medium block border-2 py-2 text-center ${pathname === "/about-us" ? "font-bold text-tospino-text" : "font-normal"}`}>ABOUT US</Link>
                         <Link href="/" className={`hover:font-medium block border-2 py-2 text-center ${pathname === "/contact-us" ? "font-bold text-tospino-text" : "font-normal"}`}>CONTACT US</Link>
                     </div>
                 }
