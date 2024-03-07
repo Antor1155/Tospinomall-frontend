@@ -373,7 +373,7 @@ export default function Home() {
       </section>
 
       {/* contact form  */}
-      <section className="grid grid-cols-1 md:grid-cols-2 gap-10 items-center px-[5%] mt-20 pb-12">
+      <section className="grid grid-cols-1 md:grid-cols-2 gap-10 items-center items-stretch px-[5%] mt-20 pb-12">
 
         <div className="bg-tospino p-10 text-center rounded-2xl order-2 md:order-1">
           <h2 className="text-4xl text-white font-semibold mb-5">Contact & Join Together</h2>
@@ -395,13 +395,15 @@ export default function Home() {
           </form>
         </div>
 
-        <Image
-          src="/images/customerSupport.png"
-          width={700}
-          height={700}
-          alt="customer support"
-          className="order-1 md:order-2"
-        />
+        <div className="order-1 md:order-2 relative min-h-96">
+          <Image
+            src="/images/customerSupport.png"
+            fill
+            alt="customer support"
+            className="object-contain md:object-cover rounded-2xl "
+          />
+
+        </div>
       </section>
 
     </main>

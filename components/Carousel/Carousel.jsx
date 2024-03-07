@@ -51,7 +51,7 @@ const Carousel = () => {
                         <div className="w-1/2 py-[5%] ps-20 hidden lg:block">
                             <p className="text-base font-normal">We're In This Business Since 2018 And We Provide The Best Services.</p>
 
-                            <p className="text-5xl leading-snug font-bold my-8">We trive to give best experience</p>
+                            <p className="text-5xl leading-snug font-bold my-8">We thrive to give best experience</p>
 
                             <p className="text-xl font-normal mb-8">Better Lifestyle with High-End Online Shopping</p>
 
@@ -75,7 +75,7 @@ const Carousel = () => {
             <div className="px-[5%] py-5 block lg:hidden text-black">
                 <p className="text-base font-normal">We're In This Business Since 2018 And We Provide The Best Services.</p>
 
-                <p className="text-5xl leading-snug font-bold my-5">We trive to give best experience</p>
+                <p className="text-5xl leading-snug font-bold my-5">We thrive to give best experience</p>
 
                 <p className="text-xl font-normal mb-8">Better Lifestyle with High-End Online Shopping</p>
 

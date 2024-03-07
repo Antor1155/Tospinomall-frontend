@@ -44,7 +44,7 @@ const ResponsiveCarousel = () => {
         <div id="responsive-carousel" className="mx-auto w-11/12 -mt-9">
             <Slider {...settings} className="flex ">
                 <section>
-                    <div className="card card-compact h-96 bg-white border-2 rounded-xl shadow-xl">
+                    <div className="card card-compact h-96 mx-0 md:mx-2 bg-white border-2 rounded-xl shadow-xl">
                         <figure className="pt-1 px-1">
                             <Image
                                 src="/images/card1.png"
@@ -65,7 +65,7 @@ const ResponsiveCarousel = () => {
                 </section>
 
                 <section>
-                    <div className="card card-compact h-96 bg-white border-2 rounded-xl shadow-xl">
+                    <div className="card card-compact h-96 mx-0 md:mx-2 bg-white border-2 rounded-xl shadow-xl">
                         <figure className="pt-1 px-1">
                             <Image
                                 src="/images/card2.png"
@@ -85,7 +85,7 @@ const ResponsiveCarousel = () => {
                 </section>
 
                 <section>
-                    <div className="card card-compact h-96 bg-white border-2 rounded-xl shadow-xl">
+                    <div className="card card-compact h-96 mx-0 md:mx-2 bg-white border-2 rounded-xl shadow-xl">
                         <figure className="pt-1 px-1">
                             <Image
                                 src="/images/card3.png"
@@ -105,7 +105,7 @@ const ResponsiveCarousel = () => {
                 </section>
 
                 <section>
-                    <div className="card card-compact h-96 bg-white border-2 rounded-xl shadow-xl">
+                    <div className="card card-compact h-96 mx-0 md:mx-2 bg-white border-2 rounded-xl shadow-xl">
                         <figure className="pt-1 px-1">
                             <Image
                                 src="/images/card4.png"
