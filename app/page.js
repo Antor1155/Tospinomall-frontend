@@ -70,7 +70,7 @@ export default function Home() {
             Our platform covers an online marketplace with integrated digital payment services and logistics that link millions of buyers and vendors.TospinoMall is a Chinese company, and most Chinese and local sellers are on our app with fast shipping and delivery.
           </p>
 
-          <Link href="/" className="text-lg font-medium btn mr-auto bg-[#33c0ba80] rounded-lg border-2 border-tospino shadow-md shadow-black/50"> More About Our Business </Link>
+          <Link href="/" className="text-lg font-medium btn mr-auto bg-tospino-btn rounded-lg border-2 border-tospino shadow-md shadow-black/50"> More About Our Business </Link>
         </div>
       </section>
 
@@ -92,6 +92,110 @@ export default function Home() {
 
       <ResponsiveCarousel />
 
+      <section className="my-12 text-center px-[5%]">
+        <h2 className="text-5xl font-semibold">Our Team</h2>
+
+        <div className="grid grid-cols-3 gap-2 md:gap-8 items-end my-10">
+
+          <div>
+            <Image
+              src="/images/team1.png"
+              width={100}
+              height={200}
+              alt="team member"
+              className="w-full rounded-md"
+            />
+
+            <div className="bg-[#E7EDF8] py-5 mt-2 rounded-md">
+              <p>Jullia Siger</p>
+              <p className="font-medium">MD</p>
+            </div>
+          </div>
+
+          <div>
+            <Image
+              src="/images/team2.png"
+              width={100}
+              height={200}
+              alt="team member"
+              className="w-full rounded-md"
+            />
+
+            <div className="bg-[#E7EDF8] py-5 mt-2 rounded-md">
+              <p>Makhaia Antitni</p>
+              <p className="font-medium">CEO</p>
+            </div>
+          </div>
+          
+          <div>
+            <Image
+              src="/images/team3.png"
+              width={100}
+              height={200}
+              alt="team member"
+              className="w-full rounded-md"
+            />
+
+            <div className="bg-[#E7EDF8] py-5 mt-2 rounded-md">
+              <p>Harry Steve</p>
+              <p className="font-medium">CTO</p>
+            </div>
+          </div>
+
+
+          {/* hide those  divs in smaller display  */}
+          <div className="hidden md:block">
+            <Image
+              src="/images/team1.png"
+              width={100}
+              height={200}
+              alt="team member"
+              className="w-full rounded-md"
+            />
+
+            <div className="bg-[#E7EDF8] py-5 mt-2 rounded-md">
+              <p>Jullia Siger</p>
+              <p className="font-medium">MD</p>
+            </div>
+          </div>
+
+          <div className="hidden md:block">
+            <Image
+              src="/images/team1.png"
+              width={100}
+              height={200}
+              alt="team member"
+              className="w-full rounded-md"
+            />
+
+            <div className="bg-[#E7EDF8] py-5 mt-2 rounded-md">
+              <p>Jullia Siger</p>
+              <p className="font-medium">MD</p>
+            </div>
+          </div>
+
+          <div className="hidden md:block">
+            <Image
+              src="/images/team1.png"
+              width={100}
+              height={200}
+              alt="team member"
+              className="w-full rounded-md"
+            />
+
+            <div className="bg-[#E7EDF8] py-5 mt-2 rounded-md">
+              <p>Jullia Siger</p>
+              <p className="font-medium">MD</p>
+            </div>
+          </div>
+
+        </div>
+
+        <Link href="/" className="text-lg font-medium btn mx-auto bg-tospino-btn rounded-lg border-2 border-tospino shadow-md shadow-black/50"> Show More </Link>
+
+      </section>
+
+      
 
     </main>
   );
