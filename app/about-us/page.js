@@ -43,11 +43,13 @@ const page = () => {
             </section>
 
             {/* our business section  */}
-            <section className="px-[5%] mt-16 mb-16 grid grid-cols-1 lg:grid-cols-2 gap-y-10 gap-x-10">
+            <section className="px-[5%] mt-16 mb-16 grid grid-cols-1 md:grid-cols-2 gap-y-10  gap-x-10">
+                
+                <div className="order-2 md:order-1">
+                    <BusinessImgCarousel />
+                </div>
 
-                <BusinessImgCarousel />
-
-                <div className="flex flex-col justify-center ps-8">
+                <div className="flex flex-col justify-center ps-8 order-1 md:order-2">
                     <h1 className="text-5xl font-semibold">Our Business</h1>
                     <p className="my-8">
                         TospinoMall is a leading e-commerce platform in Ghana. It was founded in 2018. TospinoMall has been growing rapidly since its launch in January 2021. The 2021 Shenzhen cross-border e-commerce trading expo was a big success for TospinoMall. Many popular international brands, local brands, and entrepreneurs are associated with Tospinomol. According to a leading web analytics company, TospinoMall is ranked 4th in Ghana based on downloads and users on the Google Play Store.

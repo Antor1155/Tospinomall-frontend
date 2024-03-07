@@ -2,6 +2,8 @@
 import Image from "next/image";
 import Slider from "react-slick";
 
+import "./BusinessImgCarousel.css"
+
 const BusinessImgCarousel = () => {
     var settings = {
         dots: true,
@@ -13,7 +15,7 @@ const BusinessImgCarousel = () => {
 
     };
     return (
-        <div className="" id="business-carousel border border-black">
+        <div className="" id="business-carousel">
 
             <Slider {...settings}>
 
