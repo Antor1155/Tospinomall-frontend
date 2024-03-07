@@ -198,16 +198,18 @@ export default function Home() {
 
       <FaqAccordion />
 
-      <section className="px-[5%] pt-28 pb-24  md:pt-36 md:pb-32 -mt-9 bg-tospino text-white grid grid-cols-1 md:grid-cols-2 items-center">
+      {/* subscribe sectin  */}
+      <section className="px-[5%] pt-28 pb-24  md:pt-36 md:pb-32 -mt-9 bg-tospino text-white grid grid-cols-1 md:grid-cols-2 gap-3 items-center">
 
         <p className="text-3xl font-semibold mb-4 md:mb-0">Sign up for leatest resources news from TospinoMall</p>
 
         <form className="">
-          <input type="email" required className="w-2/3 border-4 border-white h-12 rounded-s" />
-          <button type="submit" className="btn border-4 border-white bg-tospino text-white"> Subscribe </button>
+          <input type="email" placeholder="Email" required className="w-1/2 md:w-2/3 border-4 border-white h-12 rounded-s" />
+          <button type="submit" className="btn border-4 border-white bg-tospino text-white -translate-y-0.5"> Subscribe </button>
         </form>
       </section>
 
+      {/* latest blogs  */}
       <section className="my-12 px-[5%]">
         <h2 className="text-5xl font-semibold text-center">Latest Blog</h2>
 
