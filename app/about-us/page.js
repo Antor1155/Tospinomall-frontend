@@ -65,7 +65,7 @@ const page = () => {
 
                 <div className="card w-full">
                     <figure>
-                        <Image 
+                        <Image
                             src="/images/aboutCard.png"
                             width={200}
                             height={200}
@@ -80,7 +80,7 @@ const page = () => {
                         </p>
                         <Link href="/" className="text-tospino-text font-semibold">
                             Discover
-                            <Image 
+                            <Image
                                 src="/icons/rightArrow.svg"
                                 width={13}
                                 height={13}
@@ -94,7 +94,7 @@ const page = () => {
 
                 <div className="card w-full">
                     <figure>
-                        <Image 
+                        <Image
                             src="/images/aboutCard2.png"
                             width={200}
                             height={200}
@@ -105,11 +105,11 @@ const page = () => {
                     <div className="">
                         <h2 className="card-title text-2xl mt-4">Empowering Businesses</h2>
                         <p className="my-4">
-                        We are always empowering Ghana's small businesses and entrepreneurs to grow their businesses and Ghana's e-commerce growth. Hundreds of entrepreneurs and local companies accompany TospinoMall, significantly contributing to the advancement of e-commerce in Ghana. We build an easy and secure platform for all local businesses and entrepreneurs in Ghana where everyone can easily run and manage their business online.
+                            We are always empowering Ghana's small businesses and entrepreneurs to grow their businesses and Ghana's e-commerce growth. Hundreds of entrepreneurs and local companies accompany TospinoMall, significantly contributing to the advancement of e-commerce in Ghana. We build an easy and secure platform for all local businesses and entrepreneurs in Ghana where everyone can easily run and manage their business online.
                         </p>
                         <Link href="/" className="text-tospino-text font-semibold">
                             Discover
-                            <Image 
+                            <Image
                                 src="/icons/rightArrow.svg"
                                 width={13}
                                 height={13}
@@ -119,6 +119,36 @@ const page = () => {
                         </Link>
 
                     </div>
+                </div>
+
+            </section>
+
+            {/* stats section  */}
+            <section className="bg-[url('/images/statsBackground.png')] bg-cover grid grid-cols-2 md:grid-cols-3 px-[5%] py-5">
+
+                <div className="stat text-center text-lg w-auto">
+                    <div className="stat-value">100k+</div>
+                    <div className="stat-title text-black ">Visits on the website in 2022</div>
+                </div>
+                <div className="stat text-center text-xl w-auto">
+                    <div className="stat-value">100k+</div>
+                    <div className="stat-title text-black">Active Sellers</div>
+                </div>
+                <div className="stat text-center text-xl w-auto">
+                    <div className="stat-value">100k+</div>
+                    <div className="stat-title text-black">One transaction is done</div>
+                </div>
+                <div className="stat text-center text-xl w-auto">
+                    <div className="stat-value">100k+</div>
+                    <div className="stat-title text-black">Orders in 2022</div>
+                </div>
+                <div className="stat text-center text-xl w-auto">
+                    <div className="stat-value">100k+</div>
+                    <div className="stat-title text-black">Products</div>
+                </div>
+                <div className="stat text-center text-xl w-auto">
+                    <div className="stat-value">100k+</div>
+                    <div className="stat-title text-black">Active Consumers across Africa</div>
                 </div>
 
             </section>
