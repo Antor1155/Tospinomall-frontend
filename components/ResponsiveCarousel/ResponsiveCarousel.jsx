@@ -41,7 +41,7 @@ const ResponsiveCarousel = () => {
         ]
     };
     return (
-        <div id="responsive-carousel" className="mx-auto w-11/12">
+        <div id="responsive-carousel" className="mx-auto w-11/12 -mt-9">
             <Slider {...settings} className="flex ">
                 <section>
                     <div className="card card-compact h-96 bg-white border-2 rounded-xl shadow-xl">
