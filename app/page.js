@@ -127,7 +127,7 @@ export default function Home() {
               <p className="font-medium">CEO</p>
             </div>
           </div>
-          
+
           <div>
             <Image
               src="/images/team3.png"
@@ -197,6 +197,176 @@ export default function Home() {
       </section>
 
       <FaqAccordion />
+
+      <section className="px-[5%] pt-28 pb-24  md:pt-36 md:pb-32 -mt-9 bg-tospino text-white grid grid-cols-1 md:grid-cols-2 items-center">
+
+        <p className="text-3xl font-semibold mb-4 md:mb-0">Sign up for leatest resources news from TospinoMall</p>
+
+        <form className="">
+          <input type="email" required className="w-2/3 border-4 border-white h-12 rounded-s" />
+          <button type="submit" className="btn border-4 border-white bg-tospino text-white"> Subscribe </button>
+        </form>
+      </section>
+
+      <section className="mt-12 px-[5%]">
+        <h2 className="text-5xl font-semibold text-center">Latest Blog</h2>
+
+        <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 items-stretch my-10">
+
+          <div className="card card-compact">
+            <figure>
+              <Image
+                src="/images/blog1.png"
+                width={200}
+                height={200}
+                alt="blog1"
+                className="w-full"
+              />
+            </figure>
+
+            <div className="card-body">
+              <div className="flex justify-between items-center">
+                <small>Aplir 10, 2024</small>
+                <small>Ecommerce</small>
+              </div>
+
+              <h2 className="card-title">TospinoMall- The Best Online Shopping Platform In Ghana</h2>
+              <p>TospinoMall is a Ghanaian e-commerce platform aiming to...</p>
+
+              <div className="bg-black/30 h-1 my-4"></div>
+
+              <div className="flex justify-between items-center gap-4">
+                <Image
+                  src="/images/blogWritter.png"
+                  width={35}
+                  height={35}
+
+                />
+
+                <p>Arafat</p>
+
+              </div>
+
+            </div>
+
+          </div>
+
+          <div className="card card-compact">
+            <figure>
+              <Image
+                src="/images/blog2.png"
+                width={200}
+                height={200}
+                alt="blog2"
+                className="w-full"
+              />
+            </figure>
+
+            <div className="card-body">
+              <div className="flex justify-between items-center">
+                <small>April 11, 2024</small>
+                <small>Business</small>
+              </div>
+
+              <h2 className="card-title">5 Tips to Enhance Your Customer Experience with...</h2>
+              <p>Welcome to TospinoMall, where customer satisfaction is our top...</p>
+
+              <div className="bg-black/30 h-1 my-4"></div>
+
+              <div className="flex justify-between items-center gap-4">
+                <Image
+                  src="/images/blogWritter.png"
+                  width={35}
+                  height={35}
+
+                />
+
+                <p>Arafat</p>
+
+              </div>
+
+            </div>
+
+          </div>
+
+          <div className="card card-compact hidden md:flex">
+            <figure>
+              <Image
+                src="/images/blog3.png"
+                width={200}
+                height={200}
+                alt="blog3"
+                className="w-full"
+              />
+            </figure>
+
+            <div className="card-body">
+              <div className="flex justify-between items-center">
+                <small>April 11, 2024</small>
+                <small>Business</small>
+              </div>
+
+              <h2 className="card-title">How to Start an E-commerce Business in Ghana with...</h2>
+              <p>E-commerce has revolutionized how business is conducted ... </p>
+
+              <div className="bg-black/30 h-1 my-4"></div>
+
+              <div className="flex justify-between items-center gap-4">
+                <Image
+                  src="/images/blogWritter.png"
+                  width={35}
+                  height={35}
+
+                />
+
+                <p>Arafat</p>
+
+              </div>
+
+            </div>
+
+          </div>
+
+          <div className="card card-compact hidden lg:flex">
+            <figure>
+              <Image
+                src="/images/blog4.png"
+                width={200}
+                height={200}
+                alt="blog4"
+                className="w-full"
+              />
+            </figure>
+
+            <div className="card-body">
+              <div className="flex justify-between items-center">
+                <small>April 11, 2024</small>
+                <small>Business</small>
+              </div>
+
+              <h2 className="card-title">Start Your Career With Ghana's Top E-commerce...</h2>
+              <p>In this digital world, having a job with a leading e-commerce...</p>
+
+              <div className="bg-black/30 h-1 my-4"></div>
+
+              <div className="flex justify-between items-center gap-4">
+                <Image
+                  src="/images/blogWritter.png"
+                  width={35}
+                  height={35}
+                  alt="blog writter"
+                />
+                <p>Arafat</p>
+              </div>
+
+            </div>
+
+          </div>
+          
+
+        </div>
+
+      </section>
 
     </main>
   );
