@@ -26,7 +26,7 @@ const page = () => {
                 onClick={handlePlayPause}
             >
                 <video ref={video} width="100%" preload="metadata" className="object-fill h-[80vh]">
-                    <source src="/videos/sample.mp4" type="video/mp4" />
+                    <source src="/videos/sample3.mp4" type="video/mp4" />
                     Your browser does not support the video tag.
                 </video>
 
@@ -67,8 +67,8 @@ const page = () => {
                     <figure>
                         <Image
                             src="/images/aboutCard.png"
-                            width={200}
-                            height={200}
+                            width={1200}
+                            height={1200}
                             alt="about us"
                             className="w-full"
                         />
@@ -96,8 +96,8 @@ const page = () => {
                     <figure>
                         <Image
                             src="/images/aboutCard2.png"
-                            width={200}
-                            height={200}
+                            width={1200}
+                            height={1200}
                             alt="about us"
                             className="w-full"
                         />
@@ -195,8 +195,8 @@ const page = () => {
 
                     <Image
                         src="/images/ourpurpose1.png"
-                        width="300"
-                        height="300"
+                        width={1200}
+                        height={1200}
                         alt="TospinoMall Logistics"
                         className="w-full order-1 md:order-3"
                     />
@@ -207,8 +207,8 @@ const page = () => {
 
                     <Image
                         src="/images/ourpurpose2.png"
-                        width="300"
-                        height="300"
+                        width={1200}
+                        height={1200}
                         alt="Tospino Wholesale"
                         className="w-full"
                     />
@@ -231,9 +231,9 @@ const page = () => {
                     </div>
 
                     <Image
-                        src="/images/ourpurpose1.png"
-                        width="300"
-                        height="300"
+                        src="/images/ourpurpose3.png"
+                        width={1200}
+                        height={1200}
                         alt="Forever and Voor Electronics Co. Ltd"
                         className="w-full order-1 md:order-3"
                     />

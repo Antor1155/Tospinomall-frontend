@@ -19,25 +19,18 @@ const BusinessImgCarousel = () => {
 
             <Slider {...settings}>
 
-                <section >
-                    <div className="h-96 w-full relative">
-                        <Image
-                            src="/images/businessMeeting.png"
-                            fill
-                            priority={true}
-                        />
-                    </div>
-                </section>
+                <Image
+                    src="/images/businessMeeting.png"
+                    width={1000}
+                    height={1000}
+                />
 
-                <section>
-                    <div className="h-96 w-full relative">
-                        <Image
-                            src="/images/businessMeeting.png"
-                            fill
-                            priority={true}
-                        />
-                    </div>
-                </section>
+                <Image
+                    src="/images/businessMeeting.png"
+                    width={1000}
+                    height={1000}
+                />
+
             </Slider>
         </div>
     );
