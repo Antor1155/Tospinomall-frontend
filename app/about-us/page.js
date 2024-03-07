@@ -1,6 +1,7 @@
 "use client"
 import BusinessImgCarousel from "@/components/BusinessImgCarousel/BusinessImgCarousel";
 import Image from "next/image";
+import Link from "next/link";
 import { useRef, useState } from "react";
 
 const page = () => {
@@ -43,8 +44,8 @@ const page = () => {
             </section>
 
             {/* our business section  */}
-            <section className="px-[5%] mt-16 mb-16 grid grid-cols-1 md:grid-cols-2 gap-y-10  gap-x-10">
-                
+            <section className="px-[5%] my-16  grid grid-cols-1 md:grid-cols-2 gap-y-10  gap-x-10">
+
                 <div className="order-2 md:order-1">
                     <BusinessImgCarousel />
                 </div>
@@ -57,6 +58,69 @@ const page = () => {
 
                     <button className="btn bg-tospino-btn mr-auto border-tospino shadow-xl"> Learn More</button>
                 </div>
+            </section>
+
+            {/* business card section  */}
+            <section className="px-[5%] mb-16 text-black grid grid-cols-1 md:grid-cols-2 gap-5">
+
+                <div className="card w-full">
+                    <figure>
+                        <Image 
+                            src="/images/aboutCard.png"
+                            width={200}
+                            height={200}
+                            alt="about us"
+                            className="w-full"
+                        />
+                    </figure>
+                    <div className="">
+                        <h2 className="card-title text-2xl mt-4">Serving Consumers</h2>
+                        <p className="my-4">
+                            TospinoMall is the best online shopping platform in Ghana. It is more than just an online marketplace. You will find everything from your favorite fashion items to essential electronics and daily essentials here. It is a platform where you get all the products you need in one place. With a single click, you will get your products at your door. We always strive to create new experiences for our customers. TospinoMall is always working towards an easy and safe online shopping experience for all people in Ghana.
+                        </p>
+                        <Link href="/" className="text-tospino-text font-semibold">
+                            Discover
+                            <Image 
+                                src="/icons/rightArrow.svg"
+                                width={13}
+                                height={13}
+                                alt="right arrow"
+                                className="inline ml-3"
+                            />
+                        </Link>
+
+                    </div>
+                </div>
+
+                <div className="card w-full">
+                    <figure>
+                        <Image 
+                            src="/images/aboutCard2.png"
+                            width={200}
+                            height={200}
+                            alt="about us"
+                            className="w-full"
+                        />
+                    </figure>
+                    <div className="">
+                        <h2 className="card-title text-2xl mt-4">Empowering Businesses</h2>
+                        <p className="my-4">
+                        We are always empowering Ghana's small businesses and entrepreneurs to grow their businesses and Ghana's e-commerce growth. Hundreds of entrepreneurs and local companies accompany TospinoMall, significantly contributing to the advancement of e-commerce in Ghana. We build an easy and secure platform for all local businesses and entrepreneurs in Ghana where everyone can easily run and manage their business online.
+                        </p>
+                        <Link href="/" className="text-tospino-text font-semibold">
+                            Discover
+                            <Image 
+                                src="/icons/rightArrow.svg"
+                                width={13}
+                                height={13}
+                                alt="right arrow"
+                                className="inline ml-3"
+                            />
+                        </Link>
+
+                    </div>
+                </div>
+
             </section>
 
         </main >
