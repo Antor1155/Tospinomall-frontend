@@ -208,7 +208,7 @@ export default function Home() {
         </form>
       </section>
 
-      <section className="mt-12 px-[5%]">
+      <section className="my-12 px-[5%]">
         <h2 className="text-5xl font-semibold text-center">Latest Blog</h2>
 
         <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 items-stretch my-10">
@@ -362,10 +362,46 @@ export default function Home() {
             </div>
 
           </div>
-          
+
 
         </div>
 
+        <div className="text-center">
+          <Link href="/" className="text-lg font-medium btn bg-tospino-btn rounded-lg border-2 border-tospino shadow-md shadow-black/50"> Show More </Link>
+        </div>
+
+      </section>
+
+      {/* contact form  */}
+      <section className="grid grid-cols-1 md:grid-cols-2 gap-10 items-center px-[5%] mt-20 pb-12">
+
+        <div className="bg-tospino p-10 text-center rounded-2xl order-2 md:order-1">
+          <h2 className="text-4xl text-white font-semibold mb-5">Contact & Join Together</h2>
+          <p className="text-white mb-5"> Reach Out for Support, Inquiries, or Collaboration Opportunities Today</p>
+
+          <form className="bg-balck flex flex-col gap-4">
+            <input className="rounded-lg p-5" type="email" id="email" placeholder="Email" required />
+            <input className="rounded-lg p-5" type="text" id="phone" placeholder="Phone" required />
+
+            <div className="grid grid-cols-2 gap-4">
+              <input className="rounded-lg p-5" type="text" id="firstName" placeholder="First Name" required />
+              <input className="rounded-lg p-5" type="text" id="lastName" placeholder="Last Name" required />
+            </div>
+
+            <textarea className="rounded-lg p-5" rows="6" id="message" placeholder="Enter Your Text Here" required />
+
+            <button type="submit" className="btn btn-wide text-lg rounded-full bg-semi-black text-white border-black mt-5 mx-auto">SUBMIT MESSAGE</button>
+
+          </form>
+        </div>
+
+        <Image
+          src="/images/customerSupport.png"
+          width={700}
+          height={700}
+          alt="customer support"
+          className="order-1 md:order-2"
+        />
       </section>
 
     </main>
