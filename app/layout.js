@@ -3,6 +3,9 @@ import "./globals.css";
 import Header from "@/components/Header/Header";
 import Footer from "@/components/Footer/Footer";
 
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
+
 const montserrat  = Montserrat ({ subsets: ["latin"] });
 
 export const metadata = {
