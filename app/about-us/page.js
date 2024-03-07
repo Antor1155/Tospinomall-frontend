@@ -153,6 +153,33 @@ const page = () => {
 
             </section>
 
+            {/* our purpose section  */}
+            <section className="my-16 px-[5%]">
+                <div className="text-center w-full md:w-2/3 mx-auto mb-10 md:mb-16">
+                    <h2 className="font-semibold text-4xl mb-5">Our Purpose</h2>
+                    <p>
+                        Our purpose is simple but significant. We are working to improve lives via fantastic shopping experiences. We are a community-driven platform that connects customers with high-quality products, trustworthy sellers, and creative solutions. From daily needs to exclusive finds, we strive to make shopping simple, enjoyable, and satisfying. With a focus on customer satisfaction and empowerment, we aim to build trust and develop long-term partnerships
+                    </p>
+                </div>
+
+                <div className="grid grid-cols-1 md:grid-cols-2">
+                    <div className="pe-0 md:pe-16">
+                        <h2 className="font-semibold text-3xl mb-5">Our Mission</h2>
+                        <p>
+                            We want to exploit the opportunities that exist to improve the quality of life of the people of Ghana through the use of technology. TospinoMall is working to empower Ghanaian small business people or entrepreneurs to grow their businesses and reach their customers easily through technology. TospinoMall is established to create a safe, easy, one-stop online shopping platform for business people, entrepreneurs, and general consumers.
+                        </p>
+                    </div>
+
+                    <div className="ps-0 md:ps-16 mt-10 md:mt-0 md:border-l border-black">
+                        <h2 className="font-semibold text-3xl mb-5">Our Vision</h2>
+                        <p>
+                            Our vision is to take TospinoMall higher by exceeding customer expectations. Revolutionizing online shopping in Ghana by providing a seamless and easy experience. Building a reliable platform for all retail and wholesale traders in Ghana, including consumers, through TospinoMall's vast supply chain and manufacturing.
+                        </p>
+                    </div>
+                </div>
+
+            </section>
+
         </main >
     );
 };
