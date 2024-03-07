@@ -57,8 +57,8 @@ export default function Home() {
       <section className="py-11 px-[5%] flex flex-wrap space-y-6 md:space-y-0">
         <Image
           src="/images/homeSecondGroup.png"
-          width={380}
-          height={300}
+          width={1000}
+          height={1000}
           alt="homeSecondGroup"
           className="w-full md:w-1/3"
         />
@@ -101,8 +101,8 @@ export default function Home() {
           <div>
             <Image
               src="/images/team1.png"
-              width={100}
-              height={200}
+              width={1000}
+              height={1000}
               alt="team member"
               className="w-full rounded-md"
             />
@@ -116,8 +116,8 @@ export default function Home() {
           <div>
             <Image
               src="/images/team2.png"
-              width={100}
-              height={200}
+              width={1000}
+              height={1000}
               alt="team member"
               className="w-full rounded-md"
             />
@@ -131,8 +131,8 @@ export default function Home() {
           <div>
             <Image
               src="/images/team3.png"
-              width={100}
-              height={200}
+              width={1000}
+              height={1000}
               alt="team member"
               className="w-full rounded-md"
             />
@@ -148,8 +148,8 @@ export default function Home() {
           <div className="hidden md:block">
             <Image
               src="/images/team1.png"
-              width={100}
-              height={200}
+              width={1000}
+              height={1000}
               alt="team member"
               className="w-full rounded-md"
             />
@@ -163,8 +163,8 @@ export default function Home() {
           <div className="hidden md:block">
             <Image
               src="/images/team1.png"
-              width={100}
-              height={200}
+              width={1000}
+              height={1000}
               alt="team member"
               className="w-full rounded-md"
             />
@@ -178,8 +178,8 @@ export default function Home() {
           <div className="hidden md:block">
             <Image
               src="/images/team1.png"
-              width={100}
-              height={200}
+              width={1000}
+              height={1000}
               alt="team member"
               className="w-full rounded-md"
             />
@@ -217,8 +217,8 @@ export default function Home() {
             <figure>
               <Image
                 src="/images/blog1.png"
-                width={200}
-                height={200}
+                width={500}
+                height={500}
                 alt="blog1"
                 className="w-full"
               />
@@ -255,8 +255,8 @@ export default function Home() {
             <figure>
               <Image
                 src="/images/blog2.png"
-                width={200}
-                height={200}
+                width={500}
+                height={500}
                 alt="blog2"
                 className="w-full"
               />
@@ -293,8 +293,8 @@ export default function Home() {
             <figure>
               <Image
                 src="/images/blog3.png"
-                width={200}
-                height={200}
+                width={500}
+                height={500}
                 alt="blog3"
                 className="w-full"
               />
@@ -331,8 +331,8 @@ export default function Home() {
             <figure>
               <Image
                 src="/images/blog4.png"
-                width={200}
-                height={200}
+                width={500}
+                height={500}
                 alt="blog4"
                 className="w-full"
               />
