@@ -4,7 +4,7 @@ import Link from "next/link";
 const page = () => {
     return (
         <main className="bg-off-white">
-            <section className="bg-[url('/images/blogBackground.png')] h-[70vh] bg-cover flex items-center ps-[5%]">
+            <section className="bg-[url('/images/blogBackground.png')] h-[50vh] md:h-[70vh] bg-cover flex items-center ps-[5%]">
                 <h1 className="text-8xl font-bold text-center md:text-left">All Blogs</h1>
             </section>
 
