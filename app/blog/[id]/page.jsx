@@ -69,10 +69,9 @@ const page = ({ params }) => {
                         <div className="flex items-center gap-4 py-3 border-t-2">
                             <Image
                                 src="/blog/popular1.png"
-                                width={400}
-                                height={400}
+                                width={65}
+                                height={65}
                                 alt="popular blog"
-                                className="w-full h-full"
                             />
 
                             <div>
@@ -84,10 +83,9 @@ const page = ({ params }) => {
                         <div className="flex items-center gap-4 py-3 border-t-2">
                             <Image
                                 src="/blog/popular2.png"
-                                width={400}
-                                height={400}
+                                width={65}
+                                height={65}
                                 alt="popular blog"
-                                className="w-full h-full"
                             />
 
                             <div>
@@ -99,10 +97,9 @@ const page = ({ params }) => {
                         <div className="flex items-center gap-4 py-3 border-t-2">
                             <Image
                                 src="/blog/popular3.png"
-                                width={400}
-                                height={400}
+                                width={65}
+                                height={65}
                                 alt="popular blog"
-                                className="w-full h-full"
                             />
 
                             <div>
@@ -110,6 +107,62 @@ const page = ({ params }) => {
                                 <p>Kimirica Is Now First 100% VEGAN </p>
                             </div>
                         </div>
+
+
+                        <h2 className="text-2xl font-medium pb-3 border-b-2 mt-11 mb-8">Popular Tags</h2>
+
+                        <div className="flex flex-wrap gap-3">
+
+                            <button className="border border-black/50 shadow-md rounded-full px-5 py-2 font-medium text-black/50 text-sm">
+                                LuxuryLiving
+
+                                <Image
+                                    src="/icons/Cancel.svg"
+                                    width={20}
+                                    height={20}
+                                    alt="cencen button"
+                                    className="bg-semi-black rounded-full inline ml-1"
+                                />
+                            </button>
+
+                            <button className="border border-black/50 shadow-md rounded-full px-5 py-2 font-medium text-black/50 text-sm">
+                                TravelComforts
+
+                                <Image
+                                    src="/icons/Cancel.svg"
+                                    width={20}
+                                    height={20}
+                                    alt="cencen button"
+                                    className="bg-semi-black rounded-full inline ml-1"
+                                />
+                            </button>
+
+                            <button className="border border-black/50 shadow-md rounded-full px-5 py-2 font-medium text-black/50 text-sm">
+                                SuiteLife
+
+                                <Image
+                                    src="/icons/Cancel.svg"
+                                    width={20}
+                                    height={20}
+                                    alt="cencen button"
+                                    className="bg-semi-black rounded-full inline ml-1"
+                                />
+                            </button>
+
+                            <button className="border border-black/50 shadow-md rounded-full px-5 py-2 font-medium text-black/50 text-sm">
+                                HospitalityLuxury
+
+                                <Image
+                                    src="/icons/Cancel.svg"
+                                    width={20}
+                                    height={20}
+                                    alt="cencen button"
+                                    className="bg-semi-black rounded-full inline ml-1"
+                                />
+                            </button>
+
+                        </div>
+
                     </div>
                 </div>
             </section>
