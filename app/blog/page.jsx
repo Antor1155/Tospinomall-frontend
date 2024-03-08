@@ -30,7 +30,7 @@ const page = () => {
 
                         <p className="text-base">In this digital world, having a job with a leading e-commerce platform can lead to tremendous growth and success. TospinoMall is..</p>
 
-                        <Link href="" className="text-xl font-medium btn bg-tospino/50 rounded-full mr-auto mt-5">Continue Reading...</Link>
+                        <Link href="/blog/223" className="text-xl font-medium btn bg-tospino/50 rounded-full mr-auto mt-5">Continue Reading...</Link>
 
                     </div>
                 </div>
