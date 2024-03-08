@@ -14,7 +14,8 @@ module.exports = {
         "dim-text": "#9E9E9E",
         "semi-black": "#282828",
         "off-white": "#F6F6F6",
-        "tospino-btn" : "#33c0ba50"
+        "tospino-btn" : "#33c0ba50",
+        "blog-sm" : "#AAAAAA",
       },
     },
   },
