@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 
 const page = ({ params }) => {
     return (
@@ -165,6 +166,64 @@ const page = ({ params }) => {
 
                     </div>
                 </div>
+            </section>
+
+            {/* recent blogs  */}
+            <section className="px-[5%] mt-12 pb-12">
+                <h2 className="text-3xl md:text-4xl font-bold">Recent Blog</h2>
+
+                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-7 mt-12 ">
+
+                    <div className="card card-compact">
+                        <figure>
+                            <Image
+                                src="/blog/blog7.png"
+                                width={600}
+                                height={500}
+                                alt="blog image"
+                            />
+                        </figure>
+
+                        <div className="card-body">
+                            <h2 className="card-title">Amazing Things You May Have Missed Growing up</h2>
+
+                            <p className="text-blog-sm">
+                                BY <span className="text-red-500 mr-5">SHANE DOE</span> MAY 14, 2016
+                            </p>
+
+                            <p className="text-base">More off this less hello salamander lied porpoise much over tightly circa horse taped so innocuously outside crud mightily rigorous…</p>
+
+                            <Link href="" className="text-xl font-medium btn bg-tospino/50 rounded-full mr-auto mt-5">Continue Reading...</Link>
+
+                        </div>
+                    </div>
+
+                    <div className="card card-compact">
+                        <figure>
+                            <Image
+                                src="/blog/blog7.png"
+                                width={600}
+                                height={500}
+                                alt="blog image"
+                            />
+                        </figure>
+
+                        <div className="card-body">
+                            <h2 className="card-title">Amazing Things You May Have Missed Growing up</h2>
+
+                            <p className="text-blog-sm">
+                                BY <span className="text-red-500 mr-5">SHANE DOE</span> MAY 14, 2016
+                            </p>
+
+                            <p className="text-base">More off this less hello salamander lied porpoise much over tightly circa horse taped so innocuously outside crud mightily rigorous…</p>
+
+                            <Link href="" className="text-xl font-medium btn bg-tospino/50 rounded-full mr-auto mt-5">Continue Reading...</Link>
+
+                        </div>
+                    </div>
+
+                </div>
+
             </section>
 
         </main>
