@@ -171,7 +171,7 @@ const page = () => {
 
             {/* recent blogs  */}
             <section className="px-[5%] mt-12 pb-12">
-                <h2 className="text-5xl font-bold">Recent Blog</h2>
+                <h2 className="text-3xl md:text-5xl font-bold">Recent Blog</h2>
 
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-7 mt-12 ">
 
