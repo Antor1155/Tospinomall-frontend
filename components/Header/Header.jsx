@@ -96,7 +96,9 @@ const Header = () => {
                 </div>
 
                 {showNav &&
-                    <div className="lg:hidden w-full h-lvh border-2 border-black bg-white font-medium absolute top-16 left-0 z-10">
+                    <div className="lg:hidden w-full h-lvh border-2 border-black bg-white font-medium absolute top-16 left-0 z-10"
+                        onClick={()=>setShowNav(false)}
+                    >
                         <Link href="/" className={`hover:font-medium block border-2 py-2 text-center ${pathname === "/" ? "font-bold text-tospino-text" : "font-normal"}`}>HOME</Link>
                         <Link href="/" className={`hover:font-medium block border-2 py-2 text-center ${pathname === "/our-team" ? "font-bold text-tospino-text" : "font-normal"}`}>OUR TEAM</Link>
                         <Link href="/" className={`hover:font-medium block border-2 py-2 text-center ${pathname === "/blog" ? "font-bold text-tospino-text" : "font-normal"}`}>BLOG</Link>
