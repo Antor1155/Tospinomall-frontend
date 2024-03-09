@@ -89,7 +89,7 @@ const Header = () => {
                     <Link href="/" className={`hover:font-medium ${pathname === "/" ? "font-bold text-tospino-text" : "font-normal"}`}>HOME</Link>
                     <Link href="/our-team" className={`hover:font-medium ${pathname === "/our-team" ? "font-bold text-tospino-text" : "font-normal"}`}>OUR TEAM</Link>
                     <Link href="/blog" className={`hover:font-medium ${pathname === "/blog" ? "font-bold text-tospino-text" : "font-normal"}`}>BLOG</Link>
-                    <Link href="/" className={`hover:font-medium ${pathname === "/policy" ? "font-bold text-tospino-text" : "font-normal"}`}>POLICY</Link>
+                    <Link href="/policy" className={`hover:font-medium ${pathname === "/policy" ? "font-bold text-tospino-text" : "font-normal"}`}>POLICY</Link>
                     <Link href="/" className={`hover:font-medium ${pathname === "/faq" ? "font-bold text-tospino-text" : "font-normal"}`}>FAST FACT ADN FAQ</Link>
                     <Link href="/about-us" className={`hover:font-medium ${pathname === "/about-us" ? "font-bold text-tospino-text" : "font-normal"}`}>ABOUT US</Link>
                     <Link href="/contact-us" className={`hover:font-medium ${pathname === "/contact-us" ? "font-bold text-tospino-text" : "font-normal"}`}>CONTACT US</Link>
