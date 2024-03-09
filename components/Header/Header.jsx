@@ -76,7 +76,7 @@ const Header = () => {
 
             <nav className="relative py-2.5 px-[5%] bg-semi-black lg:bg-white flex justify-between items-center">
 
-                <Link href="/" className="lg:w-20 lg:h-20 w-10 h-10 block relative">
+                <Link href="/" className="lg:w-20 lg:h-20 w-10 h-10 block relative z-10">
                     <Image
                         src="/icons/tospinomall.svg"
                         fill
