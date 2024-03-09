@@ -115,7 +115,7 @@ const Footer = () => {
                     <Link href="" className="text-xl font-normal text-dim-text block mb-5"> Policy </Link>
                     <Link href="" className="text-xl font-normal text-dim-text block mb-5"> Location </Link>
 
-                    <p className="text-xl font-medium">CHECK OUT OUR PLATFORMS</p>
+                    <p className="text-xl font-medium mb-1">CHECK OUT OUR PLATFORMS</p>
 
                     <select id="selectExample" name="selectExample" defaultValue="tospinomall" 
                         className="text-black py-1 px-2 rounded-lg">
