@@ -87,7 +87,7 @@ const Header = () => {
 
                 <div className="hidden lg:flex space-x-7 justify-center w-full font-medium absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
                     <Link href="/" className={`hover:font-medium ${pathname === "/" ? "font-bold text-tospino-text" : "font-normal"}`}>HOME</Link>
-                    <Link href="/" className={`hover:font-medium ${pathname === "/our-team" ? "font-bold text-tospino-text" : "font-normal"}`}>OUR TEAM</Link>
+                    <Link href="/our-team" className={`hover:font-medium ${pathname === "/our-team" ? "font-bold text-tospino-text" : "font-normal"}`}>OUR TEAM</Link>
                     <Link href="/blog" className={`hover:font-medium ${pathname === "/blog" ? "font-bold text-tospino-text" : "font-normal"}`}>BLOG</Link>
                     <Link href="/" className={`hover:font-medium ${pathname === "/policy" ? "font-bold text-tospino-text" : "font-normal"}`}>POLICY</Link>
                     <Link href="/" className={`hover:font-medium ${pathname === "/faq" ? "font-bold text-tospino-text" : "font-normal"}`}>FAST FACT ADN FAQ</Link>
