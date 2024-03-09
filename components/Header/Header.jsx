@@ -23,8 +23,8 @@ const Header = () => {
                             className="mr-2"
                             alt="phone"
                         />
+                        <Link href="">(223) 555-0118</Link>
 
-                        (223) 555-0118
                     </p>
                     <p className="inline-flex">
                         <Image
@@ -34,8 +34,7 @@ const Header = () => {
                             className="mr-2"
                             alt="email"
                         />
-
-                        tospinomall@example.com
+                        <Link href="">tospinomall@example.com</Link>
                     </p>
                 </div>
 
@@ -45,31 +44,43 @@ const Header = () => {
 
                 <div className="inline-flex items-center space-x-2">
                     <p>Follow us : </p>
-                    <Image
-                        src="/icons/instagram.svg"
-                        width={16}
-                        height={16}
-                        alt="instagram"
-                    />
-                    <Image
-                        src="/icons/youtube.svg"
-                        width={16}
-                        height={16}
-                        alt="youtube"
-                    />
-                    <Image
-                        src="/icons/facebook.svg"
-                        width={16}
-                        height={16}
-                        alt="facebook"
-                    />
+                    
+                    <Link href="">
+                        <Image
+                            src="/icons/instagram.svg"
+                            width={16}
+                            height={16}
+                            alt="instagram"
+                        />
+                    </Link>
 
-                    <Image
-                        src="/icons/twitter.svg"
-                        width={16}
-                        height={16}
-                        alt="twitter"
-                    />
+                    <Link href="">
+                        <Image
+                            src="/icons/youtube.svg"
+                            width={16}
+                            height={16}
+                            alt="youtube"
+                        />
+                    </Link>
+
+                    <Link href="">
+                        <Image
+                            src="/icons/facebook.svg"
+                            width={16}
+                            height={16}
+                            alt="facebook"
+                        />
+                    </Link>
+
+                    <Link href="">
+                        <Image
+                            src="/icons/twitter.svg"
+                            width={16}
+                            height={16}
+                            alt="twitter"
+                        />
+                    </Link>
+
                 </div>
 
             </div>
@@ -97,7 +108,7 @@ const Header = () => {
 
                 {showNav &&
                     <div className="lg:hidden w-full h-lvh border-2 border-black bg-white font-medium absolute top-16 left-0 z-10"
-                        onClick={()=>setShowNav(false)}
+                        onClick={() => setShowNav(false)}
                     >
                         <Link href="/" className={`hover:font-medium block border-2 py-2 text-center ${pathname === "/" ? "font-bold text-tospino-text" : "font-normal"}`}>HOME</Link>
                         <Link href="/our-team" className={`hover:font-medium block border-2 py-2 text-center ${pathname === "/our-team" ? "font-bold text-tospino-text" : "font-normal"}`}>OUR TEAM</Link>
