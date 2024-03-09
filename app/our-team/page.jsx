@@ -161,7 +161,7 @@ const page = () => {
             <section className="py-12 px-[5%]">
                 <h3 className="text-4xl font-bold text-center mb-12">Our Team</h3>
 
-                <div className="flex flex-wrap justify-between gap-5">
+                <div className="flex flex-wrap justify-center md:justify-between gap-5">
                     {[...Array(12)].map(val => {
                         return (
                             <div className="flex items-center gap-5">
