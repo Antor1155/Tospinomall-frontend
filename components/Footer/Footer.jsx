@@ -102,25 +102,27 @@ const Footer = () => {
                 <div className="mb-10">
                     <p className="text-3xl font-semibold mb-5">QUICK LINKS</p>
 
-                    <Link href="" className="text-xl font-normal text-dim-text block mb-5"> Our Teams </Link>
-                    <Link href="" className="text-xl font-normal text-dim-text block mb-5"> Blog </Link>
-                    <Link href="" className="text-xl font-normal text-dim-text block mb-5"> Fast Fact and Faq </Link>
-                    <Link href="" className="text-xl font-normal text-dim-text block mb-5"> About Us </Link>
-                    <Link href="" className="text-xl font-normal text-dim-text block mb-5"> Contact Us </Link>
+                    <Link href="/our-team" className="text-xl font-normal text-dim-text block mb-5"> Our Teams </Link>
+                    <Link href="/blog" className="text-xl font-normal text-dim-text block mb-5"> Blog </Link>
+                    <Link href="/fast-fact" className="text-xl font-normal text-dim-text block mb-5"> Fast Fact and Faq </Link>
+                    <Link href="/about-us" className="text-xl font-normal text-dim-text block mb-5"> About Us </Link>
+                    <Link href="/contact-us" className="text-xl font-normal text-dim-text block mb-5"> Contact Us </Link>
                 </div>
 
                 <div>
                     <p className="text-3xl font-semibold mb-5">MORE</p>
 
-                    <Link href="" className="text-xl font-normal text-dim-text block mb-5"> Policy </Link>
+                    <Link href="/policy" className="text-xl font-normal text-dim-text block mb-5"> Policy </Link>
                     <Link href="" className="text-xl font-normal text-dim-text block mb-5"> Location </Link>
 
                     <p className="text-xl font-medium mb-1">CHECK OUT OUR PLATFORMS</p>
 
-                    <select id="selectExample" name="selectExample" defaultValue="tospinomall" 
+                    <select id="selectExample" name="selectExample" defaultValue="tospinomall"
                         className="text-black py-1 px-2 rounded-lg">
 
-                        <option value="tospinomall">Tospinomall</option>
+                        <option value="tospinomall">
+                                Tospinomall
+                        </option>
                         <option value="option2">Option 2</option>
                         <option value="option3">Option 3</option>
                     </select>
