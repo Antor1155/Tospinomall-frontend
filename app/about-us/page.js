@@ -25,7 +25,7 @@ const page = () => {
             <section className="relative"
                 onClick={handlePlayPause}
             >
-                <video ref={video} width="100%" preload="metadata" className="object-fill h-[80vh]">
+                <video ref={video} width="100%" preload="metadata" loop className="object-fill h-[80vh]">
                     <source src="/videos/sample3.mp4" type="video/mp4" />
                     Your browser does not support the video tag.
                 </video>
