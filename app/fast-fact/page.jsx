@@ -107,7 +107,7 @@ const page = () => {
             </section>
 
             {/* your firms and clients in one place  */}
-            <section className="grid grid-cols-1 md:grid-cols-2 gap-6 px-[5%] bg-tospino-text/30">
+            <section className="grid grid-cols-1 md:grid-cols-2 gap-6 px-[5%] py-5 lg:py-0 bg-tospino-text/30">
 
                 <div className="flex flex-col justify-center gap-6">
                     <h3 className="text-3xl font-semibold">Your Firms & clients in one place</h3>
@@ -128,6 +128,13 @@ const page = () => {
 
             <section className="mt-12">
                 <FaqAccordion />
+            </section>
+
+            {/* still have questions  */}
+            <section className="pt-10 pb-14 mt-12 flex flex-wrap gap-5 justify-around items-center bg-[#E1E1E1]">
+                <p>Still have questions? Contact our hotline</p>
+                <p>Toll Free: 080023456</p>
+                <Link href="" className="btn bg-tospino text-white px-5 rounded-lg">Send us a message</Link>
             </section>
 
         </main>
