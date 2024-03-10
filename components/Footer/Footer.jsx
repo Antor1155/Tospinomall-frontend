@@ -1,7 +1,12 @@
+"use client"
+
+import useSubscribe from "@/hooks/useSubscribe";
 import Image from "next/image";
 import Link from "next/link";
 
 const Footer = () => {
+    const handleSubmit = useSubscribe()
+
     return (
         <footer className="px-[5%] pt-16 pb-8 bg-black relative text-white">
             {/* <Image
@@ -27,8 +32,10 @@ const Footer = () => {
 
                     <p className="font-normal text-xl mb-9">Better Lifestyle with High-End Online Shopping</p>
 
-                    <form className="border border-tospino-text rounded-lg p-1">
-                        <input type="email" className="bg-transparent w-2/3" />
+                    <form className="border border-tospino-text rounded-lg p-1"
+                        onSubmit={handleSubmit}>
+
+                        <input type="email" name="email" className="bg-transparent w-2/3" />
                         <button type="sumbit" className="p-2.5 bg-tospino-text w-1/3 rounded-e-lg hover:font-bold">
                             Subscribe
                         </button>
@@ -121,7 +128,7 @@ const Footer = () => {
                         className="text-black py-1 px-2 rounded-lg">
 
                         <option value="tospinomall">
-                                Tospinomall
+                            Tospinomall
                         </option>
                         <option value="option2">Option 2</option>
                         <option value="option3">Option 3</option>
