@@ -35,7 +35,7 @@ const Footer = () => {
                     <form className="border border-tospino-text rounded-lg p-1"
                         onSubmit={handleSubmit}>
 
-                        <input type="email" name="email" className="bg-transparent w-2/3" />
+                        <input type="email" name="email" className="bg-transparent w-2/3" required/>
                         <button type="sumbit" className="p-2.5 bg-tospino-text w-1/3 rounded-e-lg hover:font-bold">
                             Subscribe
                         </button>

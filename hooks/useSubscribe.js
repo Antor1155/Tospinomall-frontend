@@ -6,8 +6,6 @@ const useSubscribe = () => {
         try{
             const email = e.target.email.value
 
-            console.log(email)
-
             const response = await fetch('/api/subscribe', {
                 method: 'POST',
                 headers: { 'Content-Type': 'application/json' },
@@ -21,7 +19,7 @@ const useSubscribe = () => {
             console.log(error)
         }
 
-        // e.target.email.value = ""
+        e.target.email.value = ""
     }
 
     return handleSubmit
