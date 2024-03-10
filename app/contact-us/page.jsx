@@ -1,8 +1,12 @@
+"use client"
+import useSendMessage from "@/hooks/useSendMessage";
 import Image from "next/image";
 import Link from "next/link";
 
 
 const page = () => {
+    const handleMsgSubmit = useSendMessage()
+
     return (
         <main className="bg-off-white">
             <section className="flex items-center justify-between pe-0 md:pe-[5%] bg-gradient-to-r from-[#0000] to-tospino h-[50vh] md:h-[70vh]">
@@ -24,16 +28,16 @@ const page = () => {
                 <h2 className="font-semibold text-4xl ">Contact & Join Together</h2>
                 <p className="my-6"> Reach Out for Support, Inquiries, or Collaboration Opportunities Today</p>
 
-                <form className="bg-balck flex flex-col gap-4">
-                    <input className="rounded-lg p-4 border border-tospino/50" type="email" id="email" placeholder="Email" required />
-                    <input className="rounded-lg p-4 border border-tospino/50" type="text" id="phone" placeholder="Phone" required />
+                <form className="bg-balck flex flex-col gap-4" onSubmit={handleMsgSubmit}>
+                    <input className="rounded-lg p-4 border border-tospino/50" type="email" name="email" id="email" placeholder="Email" required />
+                    <input className="rounded-lg p-4 border border-tospino/50" type="text" name="phone" id="phone" placeholder="Phone" required />
 
                     <div className="grid grid-cols-2 gap-4">
-                        <input className="rounded-lg p-4 border border-tospino/50" type="text" id="firstName" placeholder="First Name" required />
-                        <input className="rounded-lg p-4 border border-tospino/50" type="text" id="lastName" placeholder="Last Name" required />
+                        <input className="rounded-lg p-4 border border-tospino/50" type="text" name="firstName" id="firstName" placeholder="First Name" required />
+                        <input className="rounded-lg p-4 border border-tospino/50" type="text" name="lastName" id="lastName" placeholder="Last Name" required />
                     </div>
 
-                    <textarea className="rounded-lg p-4 border border-tospino/50" rows="6" id="message" placeholder="Enter Your Text Here" required />
+                    <textarea className="rounded-lg p-4 border border-tospino/50" rows="6" name="msg" id="message" placeholder="Enter Your Text Here" required />
 
                     <button type="submit" className="btn btn-wide text-lg rounded-full text-black bg-white shadow-xl mt-5 mx-auto">SUBMIT MESSAGE</button>
 
