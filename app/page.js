@@ -3,12 +3,15 @@
 import Carousel from "@/components/Carousel/Carousel";
 import FaqAccordion from "@/components/FaqAccordion/FaqAccordion";
 import ResponsiveCarousel from "@/components/ResponsiveCarousel/ResponsiveCarousel";
+import useSendMessage from "@/hooks/useSendMessage";
 import useSubscribe from "@/hooks/useSubscribe";
 import Image from "next/image";
 import Link from "next/link";
 
 export default function Home() {
   const handleSubmit = useSubscribe()
+  const handleMsgSubmit = useSendMessage()
+
   return (
     <main className="bg-off-white">
       <Carousel />
@@ -385,16 +388,16 @@ export default function Home() {
           <h2 className="text-4xl text-white font-semibold mb-5">Contact & Join Together</h2>
           <p className="text-white mb-5"> Reach Out for Support, Inquiries, or Collaboration Opportunities Today</p>
 
-          <form className="bg-balck flex flex-col gap-4">
-            <input className="rounded-lg p-5" type="email" id="email" placeholder="Email" required />
-            <input className="rounded-lg p-5" type="text" id="phone" placeholder="Phone" required />
+          <form className="bg-balck flex flex-col gap-4" onSubmit={handleMsgSubmit}>
+            <input className="rounded-lg p-5" name="email" type="email" id="email" placeholder="Email" required />
+            <input className="rounded-lg p-5" name="phone" type="text" id="phone" placeholder="Phone" required />
 
             <div className="grid grid-cols-2 gap-4">
-              <input className="rounded-lg p-5" type="text" id="firstName" placeholder="First Name" required />
-              <input className="rounded-lg p-5" type="text" id="lastName" placeholder="Last Name" required />
+              <input className="rounded-lg p-5" name="firstName" type="text" id="firstName" placeholder="First Name" required />
+              <input className="rounded-lg p-5" name="lastName" type="text" id="lastName" placeholder="Last Name" required />
             </div>
 
-            <textarea className="rounded-lg p-5" rows="6" id="message" placeholder="Enter Your Text Here" required />
+            <textarea className="rounded-lg p-5" name="msg" rows="6" id="message" placeholder="Enter Your Text Here" required />
 
             <button type="submit" className="btn btn-wide text-lg rounded-full bg-semi-black text-white border-black mt-5 mx-auto">SUBMIT MESSAGE</button>
 
