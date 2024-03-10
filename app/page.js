@@ -1,10 +1,14 @@
+"use client"
+
 import Carousel from "@/components/Carousel/Carousel";
 import FaqAccordion from "@/components/FaqAccordion/FaqAccordion";
 import ResponsiveCarousel from "@/components/ResponsiveCarousel/ResponsiveCarousel";
+import useSubscribe from "@/hooks/useSubscribe";
 import Image from "next/image";
 import Link from "next/link";
 
 export default function Home() {
+  const handleSubmit = useSubscribe()
   return (
     <main className="bg-off-white">
       <Carousel />
@@ -203,8 +207,8 @@ export default function Home() {
 
         <p className="text-3xl font-semibold mb-4 md:mb-0">Sign up for leatest resources news from TospinoMall</p>
 
-        <form className="">
-          <input type="email" placeholder="Email" required className="w-1/2 md:w-2/3 border-4 border-white h-12 rounded-s" />
+        <form className="" onSubmit={handleSubmit}>
+          <input type="email" name="email" required placeholder="Email" className="w-1/2 md:w-2/3 border-4 border-white h-12 rounded-s text-black" />
           <button type="submit" className="btn border-4 border-white bg-tospino text-white -translate-y-0.5"> Subscribe </button>
         </form>
       </section>
