@@ -9,11 +9,14 @@ const Carousel = () => {
     var settings = {
         dots: true,
         infinite: true,
-        speed: 500,
+        speed: 1200,
         slidesToShow: 1,
         slidesToScroll: 1,
         arrows: true,
 
+        autoplay: true,
+        autoplaySpeed: 3000,
+        pauseOnHover: false,
     };
     return (
         <div className="text-white" id="main-carousel">
