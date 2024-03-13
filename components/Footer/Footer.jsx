@@ -17,7 +17,7 @@ const Footer = () => {
 
             <section className="z-10 relative flex justify-between flex-wrap">
 
-                <div className="w-80 mb-10">
+                <div className="md:w-80 mb-10">
                     <h2 className="font-bold text-3xl mb-5">
                         <Image
                             src="/icons/tospinomall.svg"

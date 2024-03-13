@@ -20,7 +20,7 @@ const page = () => {
                     className="h-full w-1/2 md:w-auto"
                 />
 
-                <h1 className="font-bold text-3xl md:text-5xl lg:text-8xl text-off-white mr-5 md:mr-0">Contact Us</h1>
+                <h1 className="font-bold text-3xl md:text-5xl lg:text-8xl text-off-white text-center md:text-left mr-5 md:mr-0">Contact Us</h1>
             </section>
 
             {/* contact section  */}
