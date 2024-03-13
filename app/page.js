@@ -15,7 +15,8 @@ export default function Home() {
   return (
     <main className="bg-off-white">
       <Carousel />
-
+      
+      {/* partner companies  */}
       <sectin className="bg-white flex justify-between items-center w-full py-14 px-[5%]">
         <Image
           src="/images/partner1.svg"
@@ -61,6 +62,7 @@ export default function Home() {
         />
       </sectin>
 
+      {/* join our agency  */}
       <section className="py-11 px-[5%] flex flex-wrap space-y-6 md:space-y-0">
         <Image
           src="/images/homeSecondGroup.png"
@@ -71,7 +73,7 @@ export default function Home() {
         />
 
         <div className="w-full md:w-2/3 md:ps-16 flex flex-col justify-center">
-          <h2 className="text-5xl font-semibold">We Are More Effective <br />  To Making Different !!</h2>
+          <h2 className="text-3xl md:text-5xl text-center md:text-left font-semibold">We Are More Effective <br />  To Making Different !!</h2>
 
           <p className="text-base my-6">
             We are the top e-commerce platform in Ghana, operating in 11 countries.
@@ -82,6 +84,7 @@ export default function Home() {
         </div>
       </section>
 
+      {/* our promise to ourselves */}
       <section className="bg-tospino flex text-white items-center px-[5%]">
         <div className="w-1/2">
           <h2 className="text-3xl md:text-5xl font-semibold">Our promise to ourselves</h2>
@@ -100,6 +103,7 @@ export default function Home() {
 
       <ResponsiveCarousel />
 
+      {/* our team  */}
       <section className="my-12 text-center px-[5%]">
         <h2 className="text-5xl font-semibold">Our Team</h2>
 
@@ -208,10 +212,10 @@ export default function Home() {
       {/* subscribe sectin  */}
       <section className="px-[5%] pt-28 pb-24  md:pt-36 md:pb-32 -mt-9 bg-tospino text-white grid grid-cols-1 md:grid-cols-2 gap-3 items-center">
 
-        <p className="text-3xl font-semibold mb-4 md:mb-0">Sign up for leatest resources news from TospinoMall</p>
+        <p className="text-3xl text-center md:text-left font-semibold mb-4 md:mb-0">Sign up for leatest resources news from TospinoMall</p>
 
         <form className="" onSubmit={handleSubmit}>
-          <input type="email" name="email" required placeholder="Email" className="w-1/2 md:w-2/3 border-4 border-white h-12 rounded-s text-black" />
+          <input type="email" name="email" required placeholder="Email" className="w-2/3 border-4 border-white h-12 rounded-s text-black" />
           <button type="submit" className="btn border-4 border-white bg-tospino text-white -translate-y-0.5"> Subscribe </button>
         </form>
       </section>
@@ -382,9 +386,9 @@ export default function Home() {
       </section>
 
       {/* contact form  */}
-      <section className="grid grid-cols-1 md:grid-cols-2 gap-10 items-center items-stretch px-[5%] mt-20 pb-12">
+      <section className="grid grid-cols-1 md:grid-cols-2 gap-10 items-center items-stretch md:px-[5%] mt-20 pb-12">
 
-        <div className="bg-tospino p-10 text-center rounded-2xl order-2 md:order-1">
+        <div className="bg-tospino p-5 md:p-10 text-center rounded-2xl order-2 md:order-1">
           <h2 className="text-4xl text-white font-semibold mb-5">Contact & Join Together</h2>
           <p className="text-white mb-5"> Reach Out for Support, Inquiries, or Collaboration Opportunities Today</p>
 

@@ -4,7 +4,7 @@ const FaqAccordion = () => {
         <sectino >
 
             <div className="shadow-lg shadow-black/50 w-11/12 mx-auto bg-white pb-5">
-                <p className="font-bold text-5xl text-center py-5">Frequently Asked Questions</p>
+                <p className="font-bold text-3xl md:text-5xl text-center py-5">Frequently Asked Questions</p>
 
                 <div className="collapse collapse-arrow bg-white rounded-lg">
                     <input type="radio" name="my-accordion-2" />
