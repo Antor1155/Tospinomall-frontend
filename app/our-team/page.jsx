@@ -18,6 +18,7 @@ const page = () => {
                         width={700}
                         height={700}
                         alt="our team image"
+                        priority={true}
                     />
                 </div>
 
@@ -27,6 +28,7 @@ const page = () => {
                     height={1500}
                     alt="our team hero"
                     className="w-full md:w-2/3"
+                    priority={true}
                 />
             </section>
 
