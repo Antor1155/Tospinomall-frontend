@@ -216,7 +216,7 @@ export default function Home() {
 
         <form className="" onSubmit={handleSubmit}>
           <input type="email" name="email" required placeholder="Email" className="w-2/3 border-4 border-white h-12 rounded-s text-black" />
-          <button type="submit" className="btn border-4 border-white bg-tospino text-white -translate-y-0.5"> Subscribe </button>
+          <button type="submit" className="btn border-4 border-white bg-tospino text-white md:-translate-y-0.5"> Subscribe </button>
         </form>
       </section>
 
